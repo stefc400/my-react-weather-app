@@ -1,6 +1,7 @@
 import Search from "./Search";
 import CurrentWeather from "./CurrentWeather";
 import Forecast from "./Forecast";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Search />
         <CurrentWeather />
         <Forecast />
+        <Footer />
       </div>
     </div>
   );
